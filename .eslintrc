@@ -1,0 +1,35 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "react-app"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "rules": {
+    "semi": 0
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "React": true,
+    "PropTypes": true,
+    "renderer": true,
+    "Enzyme": true
+  }
+}

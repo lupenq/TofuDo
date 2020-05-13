@@ -1,3 +1,11 @@
+webpack
+travis ci
+jest
+eslint precommit
+node
+express
+mongodb
+
 MIT License
 
 Copyright (c) 2020 Ilya Lupen
