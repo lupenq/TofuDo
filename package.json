@@ -8,13 +8,13 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "eslint": "eslint --ext .js src/",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run eslint && npm run test.jest",
+    "test": "npm run eslint",
     "test.jest": "jest",
     "eject": "react-scripts eject"
   },
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "eslint": "6.6.0",
     "eslint-config-react-app": "5.2.1",
     "eslint-plugin-react": "7.20.0"
   }
