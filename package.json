@@ -11,9 +11,11 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "eslint": "eslint --ext .js src/",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "npm run eslint && npm run test.jest",
+    "test.jest": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
